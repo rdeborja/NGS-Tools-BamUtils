@@ -1,0 +1,3 @@
+Chr	Pos	Ref	Call	PhredScore	ReadPos	SAMFlag	MapQual	Strand	NumMismatches	MD	ProperPair	ISize	ReadId	overlap_reads	overlap_consensus
+chr1	255	a	C	6	56	99	0	+	NA	NA	TRUE	-130	30PPJAAXX090125:1:42:512:1817#0	TRUE	TRUE
+chr1	255	a	C	17	1	147	2	-	NA	NA	TRUE	-130	30PPJAAXX090125:1:42:512:1817#0	TRUE	TRUE

@@ -1,0 +1,53 @@
+{
+   "abstract" : "Perl library for pileup using the Biosamtools package",
+   "author" : [
+      "Richard de Borja <richard.deborja@sickkids.ca>"
+   ],
+   "dynamic_config" : 1,
+   "generated_by" : "Module::Build version 0.4205",
+   "license" : [
+      "artistic_2"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : "2"
+   },
+   "name" : "NGS-Tools-BamUtils",
+   "prereqs" : {
+      "build" : {
+         "requires" : {
+            "Test::More" : "0"
+         }
+      },
+      "configure" : {
+         "requires" : {
+            "Module::Build" : "0"
+         }
+      },
+      "runtime" : {
+         "requires" : {
+            "Bio::DB::Sam" : "0",
+            "Moose" : "0"
+         }
+      }
+   },
+   "provides" : {
+      "NGS::Tools::BamUtils" : {
+         "file" : "lib/NGS/Tools/BamUtils.pm",
+         "version" : "0.06"
+      },
+      "NGS::Tools::BamUtils::Roles::PileupPostProcess" : {
+         "file" : "lib/NGS/Tools/BamUtils/Roles/PileupPostProcess.pm"
+      },
+      "NGS::Tools::BamUtils::Roles::PileupUtilities" : {
+         "file" : "lib/NGS/Tools/BamUtils/Roles/PileupUtilities.pm"
+      }
+   },
+   "release_status" : "stable",
+   "resources" : {
+      "license" : [
+         "http://www.perlfoundation.org/artistic_license_2_0"
+      ]
+   },
+   "version" : "0.06"
+}

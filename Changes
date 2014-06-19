@@ -1,0 +1,23 @@
+Revision history for NGS-Tools-BamUtils
+
+0.01    2014-06-01
+        Initial release.
+
+0.02    2014-06-04
+        Added number of mismatches tag (i.e. NM) to the features.
+
+0.03    2014-06-06
+        Added MD tag to pileup output from get_base_features method.
+
+0.04    2014-06-12
+        Added overlap analysis features.  Identifies read pairs that overlap
+        at a given position and determines whether the call at that position
+        is the same for both reads.
+
+0.05    2014-06-14
+        Fixed bug in generate_pileup_features.pl to allow chr and pos.
+
+0.06    2014-06-16
+        Changed get_base_features to return array reference containing
+        base features and added method to print out pileup array ref. Updated
+        piledriver.pl and generate_pileup_features to reflect this.

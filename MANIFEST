@@ -1,0 +1,27 @@
+bin/generate_pileup_features.pl
+bin/get_bam_pileup.pl
+bin/piledriver.pl
+bin/process_pileup_overlap_reads.pl
+Build.PL
+Changes
+lib/NGS/Tools/BamUtils.pm
+lib/NGS/Tools/BamUtils/Roles/PileupPostProcess.pm
+lib/NGS/Tools/BamUtils/Roles/PileupUtilities.pm
+Makefile.PL
+MANIFEST			This list of files
+META.json
+META.yml
+README
+t/01-class.t
+t/02-feature.t
+t/03-postprocess.t
+t/04-role_feature.t
+t/05-role_pileup.t
+t/example/03_expected_features.txt
+t/example/example.pileup.txt
+t/example/exampleBAM.bam
+t/example/exampleBAM.bam.bai
+t/example/exampleFASTA.dict
+t/example/exampleFASTA.fasta
+t/example/exampleFASTA.fasta.fai
+t/example/test.bed
